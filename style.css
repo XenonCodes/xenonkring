@@ -1,0 +1,185 @@
+/*-------------------------------ID-------------------------------*/
+#header {
+	background-image: url("http://anapa-n.ru/wp-content/uploads/2016/04/%D1%84%D0%BE%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-3.jpg");
+	background-size: cover;
+}
+#header img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+}
+#header p {
+	font-size: 25pt;
+	color: #000000;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -3px 3px 5px #58d1e3
+}
+#contacts img {
+	height: 50px;
+	width: 50px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+#contacts a {
+	text-decoration: none;
+}
+#contacts img:hover {
+	opacity: 0.8;
+}
+#contacts {
+	text-align: center;
+}
+/*-------------------------------классы-------------------------------*/
+.img-circle {
+	border: 3px solid white;
+	border-radius: 50%;
+}
+.section {
+	background-color: rgba(13, 81, 153, 0.7); /* Прозрачность фона 0.7 */
+	padding: 8px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+.quote {
+	font-size: 12pt;
+	text-align: right;
+	margin-top: 10px;
+}
+.selected {
+	background-color: #f36f48;
+	font-weight: bold;
+	color: white;
+}
+.submit {
+	background-color: #3fb6b2;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin: 0;
+	font-weight: bold;
+}
+.submit:hover {
+	background-color: #43a09d;
+}
+.face {
+	transform: scale(0.4);
+	margin: 0 auto;
+	display: block;
+	margin-top: -35px;
+	margin-bottom: -25px;
+}
+.copyright {
+	font-size: 8pt;
+	text-align: right;
+	padding-bottom: 10px;
+	color: grey;
+}
+/*-------------------------------теги-------------------------------*/
+html {
+  background-image: url("https://images.unsplash.com/photo-1503025768915-494859bd53b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5421d5e4ac578d20d5b3643a87ece546&auto=format&fit=crop&w=1868&q=80");
+  background-attachment: fixed;
+}
+body {
+	font-family: 'arial', cursive;
+	font-size: 13pt;
+	padding: 10px;
+  margin: auto;
+  width: 35%;
+}
+h1 {
+	font-size: 15pt;
+	color: #20bcd5;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	margin: 0 0 10px 0;
+}
+h1 span {
+	border: 4px outset #20bcd5;
+	padding: 5px;
+}
+p {
+	padding: 0;
+	margin: 0;
+	color: #20bcd5
+}
+table {
+	width: 100%;
+	font-size: 10pt;
+}
+table, th, td {
+	border: 2px solid #cecece;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	color: #20bcd5
+}
+li {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+progress {
+	width: 70%;
+	height: 20px;
+	color: #3fb6b2;
+	background: #efefef;
+}
+progress::-webkit-progress-bar {
+	background: #efefef;
+}
+progress::-webkit-progress-value {
+	background: #3fb6b2;
+}
+progress::-moz-progress-bar {
+	color: #3fb6b2;
+	background: #efefef;
+}
+iframe, audio {
+	display: block;
+	margin: 0 auto;
+	border: 3px solid #3fb6b2;
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #f36f48;
+}
+form {
+	text-align: center;
+	margin-top: 0;
+}
+
+textarea {
+	height: 100px;
+}
+input, textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+	outline: none;
+}
+/*-------------------------------для мал.экранов-------------------------------*/
+@media screen and (max-width: 767px) {
+	body {
+	  width: 60%;
+	}
+	html {
+	  background-attachment: fixed;
+		background-size: cover;
+	}
+	iframe {
+		height: 125px;
+		width: 200px;
+}
+}

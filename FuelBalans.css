@@ -1,0 +1,54 @@
+#One {
+	background-color: rgb(13, 81, 153, 0.7);
+ 	padding: 8px;
+ 	border-radius: 15px;
+	width: 50%;
+	font-size: 40pt;
+	color: #cdff19;
+	margin: auto;
+	margin-top: 100px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 7px 4px 7px #232323
+}
+
+.quote {
+	font-size: 25pt;
+	text-align: right;
+	margin-top: 10px;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1503025768915-494859bd53b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5421d5e4ac578d20d5b3643a87ece546&auto=format&fit=crop&w=1868&q=80);
+	background-position:;
+	background-color: #726e6e;
+	background-size: cover;
+	background-repeat: no-repeat ;
+}
+
+@media only screen and (max-width: 767px) {
+
+#One {
+	font-size: 16pt;
+	color: #bdc1ba;
+	margin: auto;
+	margin-top: 100px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 1px #727272 /*#222321*/
+}
+
+.quote {
+	font-size: 16pt;
+	text-align: right;
+	margin-top: 10px;
+}
+
+body {
+background-image: url(https://wallpaperstock.net/road-at-night-wallpapers_35931_720x1280.jpg);
+background-position:;
+background-color: #726e6e;
+background-size: cover;
+background-repeat: no-repeat ;
+}
+}
